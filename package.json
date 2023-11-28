@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@ionic/cli": "^7.1.5",
+    "native-run": "^2.0.0"
+  }
+}

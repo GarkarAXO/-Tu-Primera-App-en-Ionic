@@ -1,14 +1,16 @@
 <template>
   <div id="container">
     <strong>{{ name }}</strong>
-    <p>Explore <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <p>Pulsa el boton fotos para abrir la galeria o tomarte una foto</p>
   </div>
 </template>
 
 <script setup lang="ts">
+
 defineProps({
   name: String,
 });
+
 </script>
 
 <style scoped>
@@ -29,7 +31,7 @@ defineProps({
 #container p {
   font-size: 16px;
   line-height: 22px;
-  color: #8c8c8c;
+  color: #0783e8;
   margin: 0;
 }
 
